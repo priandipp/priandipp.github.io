@@ -1,3 +1,27 @@
+.nav-link.active {
+  background: #f48220 !important;
+  border-color: #f48220 !important;
+}
+
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+  border: 1px solid #ccc;
+  background: #59595b;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.tab-content {
+  padding-left: 7px;
+  padding-right: 7px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  margin-top: -1px;
+  width: 100%;
+}
+
 /* latest-news */
 .news-caption {
   background: #383838;
