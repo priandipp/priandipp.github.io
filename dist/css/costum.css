@@ -3,6 +3,12 @@
   border-color: #f48220 !important;
 }
 
+.nav-peta {
+  background: #f48220 !important;
+  border-color: #f48220 !important;
+  align-items: center;
+}
+
 
 .nav-tabs {
   border-bottom: 1px solid #ddd;
