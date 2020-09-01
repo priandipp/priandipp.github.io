@@ -1,31 +1,21 @@
-// set the date we're counting down to
-var target_date = new Date('September, 23, 2020').getTime();
-
-// variables for time units
-var days, hours, minutes, seconds;
-
-// get tag element
-var countdown = document.getElementById('countdown');
-
-// update the tag with id "countdown" every 1 second
-setInterval(function () {
-
-    // find the amount of "seconds" between now and target
-    var current_date = new Date().getTime();
-    var seconds_left = (target_date - current_date) / 1000;
-
-    // do some time calculations
-    days = parseInt(seconds_left / 86400);
-    seconds_left = seconds_left % 86400;
-
-    hours = parseInt(seconds_left / 3600);
-    seconds_left = seconds_left % 3600;
-
-    minutes = parseInt(seconds_left / 60);
-    seconds = parseInt(seconds_left % 60);
-
-    // format countdown string + set tag value
-    countdown.innerHTML = '<span class="days">' + days + ' <label>Days</label></span> <span class="hours">' + hours + ' <label>Hours</label></span> <span class="minutes">' +
-        minutes + ' <label>Minutes</label></span> <span class="seconds">' + seconds + ' <label>Seconds</label></span>';
-
+var deadline = new Date("Dec 9, 2020 07:00:00").getTime();
+var x = setInterval(function () {
+    var currentTime = new Date().getTime();
+    var t = deadline - currentTime;
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((t % (1000 * 60)) / 1000);
+    document.getElementById("day").innerHTML = days;
+    document.getElementById("hour").innerHTML = hours;
+    document.getElementById("minute").innerHTML = minutes;
+    document.getElementById("second").innerHTML = seconds;
+    if (t < 0) {
+        clearInterval(x);
+        document.getElementById("time-up").innerHTML = "TIME UP";
+        document.getElementById("day").innerHTML = '0';
+        document.getElementById("hour").innerHTML = '0';
+        document.getElementById("minute").innerHTML = '0';
+        document.getElementById("second").innerHTML = '0';
+    }
 }, 1000);

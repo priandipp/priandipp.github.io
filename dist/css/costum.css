@@ -1,3 +1,48 @@
+/* countdown */
+.timer {
+  width: 100%;
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.timer div {
+  padding: 10px;
+  border-radius: 13px;
+  background: #3d3d3d;
+  display: inline-block;
+  font-family: Oswald;
+  font-size: 26px;
+  font-weight: 400;
+  width: 80px;
+}
+
+.timer .smalltext {
+  background: #f77c2d;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 500;
+  display: block;
+  padding: 0;
+  width: auto;
+}
+
+.timer #time-up {
+  margin: 8px 0 0;
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  color: #000000;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* end countdown */
+
 .nav-link.active {
   background: #f48220 !important;
   border-color: #f48220 !important;
@@ -340,49 +385,6 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* countdown */
-.countdown-frame {
-  background: #fff;
-}
-
-.container-countdown {
-  padding: 10px;
-}
-
-p {
-  margin-bottom: auto;
-}
-
-.countdown-text {
-  text-align: center;
-  font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
-}
-
-#countdown {
-  width: 100%;
-}
-
-label {
-  clear: both;
-  display: block;
-}
-
-#countdown span {
-  background: #000000;
-  color: #ffffff;
-  font-size: 26px;
-  font-weight: normal;
-  text-align: center;
-  width: 25%;
-  display: block;
-  float: left;
-}
-
-#countdown span {
-  border: 10px solid #f77c2d;
-  border-radius: 1px;
-}
 
 .layanan {
   font-family: 'Comic Neue', cursive;
