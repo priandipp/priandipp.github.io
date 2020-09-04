@@ -24,16 +24,44 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg" style="opacity: 0.9; background: #2b2b2b;">
+    <div class="date">
+      <!-- Menampilkan Hari, Bulan dan Tahun -->
+      <br>
+      <script type='text/javascript'>
+        <!--
+        var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober',
+          'November', 'Desember'
+        ];
+        var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+        var date = new Date();
+        var day = date.getDate();
+        var month = date.getMonth();
+        var thisDay = date.getDay(),
+          thisDay = myDays[thisDay];
+        var yy = date.getYear();
+        var year = (yy < 1000) ? yy + 1900 : yy;
+        document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+        //
+        -->
+      </script>
+    </div>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <div class="addthis_inline_follow_toolbox_1jor_bmph" style="margin-top: -10px; margin-left: auto;"></div>
+    <form id="demo-2" style="margin-left: 10px;">
+      <input type="search" placeholder="Search">
+    </form>
+  </nav>
 
   <!-- Header -->
-  <div class="container-fluid" style="padding: 0px">
+  <div class="container" style="padding: 0px">
 
     <img class="desktop" src="dist/img/banner-atas-kpu-ri.jpg" alt="" style="width: 100% !important">
 
 
   </div>
 
-  <div class="container-fluid mobile-container" style="padding: 0px">
+  <div class="container mobile-container" style="padding: 0px">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -93,79 +121,19 @@
 
     <!-- akhir navbar -->
 
-    <!-- Running Text -->
+
     <nav class="navbar navbar-top">
       <div class="layout-marquee">
         <span class="navbar-marquee">
-          <marquee>Informasi dengan Running Text</marquee>
-        </span>
+          <span class="typewrite" data-period="2000" data-type='[ "Jangan Lupa Pake Masker " ]'>
+            <span class="wrap"></span>
+
+          </span>
       </div>
     </nav>
     <!-- akhir running text -->
     <div class="navbar-line w-100 d-block"></div>
   </div>
-
-
-  <router-view></router-view>
-  <vue-progress-bar></vue-progress-bar>
-
-  <!-- header jumbotron -->
-  <div class="jumbotron jumbotron-header">
-    <div class="container-fluid">
-      <div class="row">
-        <!-- LOGO KPU -->
-        <div class="col-md-8">
-          <img src="dist/img/brand.png" class="logo">
-        </div>
-        <!-- AKHIR LOGO -->
-        <!-- SEARCH  -->
-        <div class="col-6 col-md-4">
-          <form class="form-inline pencarian">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pencarian Berita / Pengumuman"
-              aria-label="Search">
-            <button class="btn btn-outline-secondary btn-menu my-2 my-sm-0" type="submit"><img
-                src="https://kota-sungaipenuh.kpu.go.id/dist/img/search.svg" alt="Search" width="22"
-                height="22"></button>
-          </form>
-        </div>
-        <!-- AKHIR SEARCH -->
-      </div>
-    </div>
-
-    <!-- slideshow panel -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="info-panel">
-            <!-- corousel -->
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="dist/img/banner-atas.jpg" class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-            <!-- akhir corousel -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- akhir slideshow panel -->
-  </div>
-  <!-- akhir header -->
 
   <!-- konten -->
   <br>
@@ -315,7 +283,8 @@
               </div>
               <div class="news-content col-md-9">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi. Nobis dolor voluptatem ex
-                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint ullam.
+                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint
+                ullam.
                 Repellat, possimus...
 
                 <br>
@@ -342,7 +311,8 @@
               </div>
               <div class="news-content col-md-9">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi. Nobis dolor voluptatem ex
-                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint ullam.
+                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint
+                ullam.
                 Repellat, possimus...
 
                 <br>
@@ -368,7 +338,8 @@
               </div>
               <div class="news-content col-md-9">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi. Nobis dolor voluptatem ex
-                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint ullam.
+                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint
+                ullam.
                 Repellat, possimus...
 
                 <br>
@@ -406,7 +377,8 @@
               </div>
               <div class="news-content col-md-9">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi. Nobis dolor voluptatem ex
-                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint ullam.
+                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint
+                ullam.
                 Repellat, possimus...
                 <br>
                 <div class="content">
@@ -432,7 +404,8 @@
               </div>
               <div class="news-content col-md-9">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi. Nobis dolor voluptatem ex
-                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint ullam.
+                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint
+                ullam.
                 Repellat, possimus...
 
                 <br>
@@ -459,7 +432,8 @@
               </div>
               <div class="news-content col-md-9">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi. Nobis dolor voluptatem ex
-                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint ullam.
+                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus amet sint
+                ullam.
                 Repellat, possimus...
 
                 <br>
@@ -563,7 +537,8 @@
           <div class="layanan"
             style="background-image:url(dist/img/PANELPUBLIK.jpg);	background-position: center center, center center;	background-size: cover, cover;	background-repeat: repeat, repeat; transform-box: 50%;">
             Punya Keluhan ataupun Kritik Terhadap Layanan
-            KPU KOTA SUNGAI PENUH<br><br>Silahkan Sampaikan Pertanyaan, Saran, Kritik atau Pengaduan Anda Melalui Tombol
+            KPU KOTA SUNGAI PENUH<br><br>Silahkan Sampaikan Pertanyaan, Saran, Kritik atau Pengaduan Anda Melalui
+            Tombol
             dibawah ini.
             <br>
             <a href="pelayanan-publik.html">
@@ -747,6 +722,9 @@
 
   <!-- Go to www.addthis.com/dashboard to customize your tools -->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e86ec03ee343403"></script>
+
+  <!-- news ticker -->
+  <script src="dist/js/news-ticker.js"></script>
 </body>
 
 </html>
