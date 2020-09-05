@@ -1,3 +1,9 @@
+body {
+  background-image: url(/dist/img/body-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+}
+
 .date {
   color: white;
   margin-top: -22px;
@@ -252,10 +258,10 @@ input::-webkit-input-placeholder {
 /* countdown */
 .timer {
   width: 100%;
-  font-family: sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   color: #fff;
   display: inline-block;
-  font-weight: 100;
+  /* font-weight: 100; */
   text-align: center;
   font-size: 30px;
 }
@@ -275,7 +281,7 @@ input::-webkit-input-placeholder {
   background: #f77c2d;
   color: #ffffff;
   font-size: 15px;
-  font-family: Poppins;
+  font-family: 'Kufam', cursive;
   font-weight: 500;
   display: block;
   padding: 0;

@@ -19,6 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
 
   <title>Situs Resmi Komisi Pemilihan Umum Kota Sungai Penuh</title>
 </head>
@@ -29,7 +30,6 @@
       <!-- Menampilkan Hari, Bulan dan Tahun -->
       <br>
       <script type='text/javascript'>
-        <!--
         var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober',
           'November', 'Desember'
         ];
@@ -42,8 +42,6 @@
         var yy = date.getYear();
         var year = (yy < 1000) ? yy + 1900 : yy;
         document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
-        //
-        -->
       </script>
     </div>
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -109,8 +107,15 @@
               <a class="dropdown-item" href="galeri-video.html">Galeri Video</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pelayanan-publik.html">PENGADUAN ONLINE</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              TAHAPAN PEMILU
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Tahapan Pemilu</a>
+              <a class="dropdown-item" href="#">Tahapan Pemilihan</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://pemilu2019.kpu.go.id/">HASIL PEMILU</a>
@@ -125,9 +130,10 @@
     <nav class="navbar navbar-top">
       <div class="layout-marquee">
         <span class="navbar-marquee">
-          <span class="typewrite" data-period="2000" data-type='[ "Jangan Lupa Pake Masker " ]'>
+          <span style="padding: 10px;" class="typewrite" data-period="2000"
+            data-type='[ "Cegah Covid 19.", "Selalu Pake Masker.", "Cuci Tangan Pake Sabun.", "Jaga Jarak Aman." ]'>
             <span class="wrap"></span>
-
+            </class=>
           </span>
       </div>
     </nav>
@@ -143,7 +149,7 @@
         <div class="timer">
           <h5 style="text-align: center; font-size: 18px; color: black;">Menuju Pilkada Serentak 9 Desember 2020</h5>
           <div>
-            <span class="days" id="day" style="color: #f77c2d;"></span>
+            <span class="days" id="day"></span>
             <div class="smalltext">HARI</div>
           </div>
           <div>
@@ -264,7 +270,7 @@
         <!-- end slideshow latest news -->
         <br>
         <!-- berita terbaru -->
-        <h4>Berita Terbaru
+        <h4>Berita
           <a href="berita-arsip.html">
             <button type="button" class="btn btn-arsip">Arsip Berita</button>
           </a>
@@ -359,7 +365,7 @@
         <img style="padding: 10px;" src="dist/img/INFOBANNER.jpg" class="img-fluid" alt="Sidebar Banner">
         <img style="padding: 10px;" src="dist/img/INFOBANNER.jpg" class="img-fluid" alt="Sidebar Banner">
         <div class="pengumuman">
-          <h4 style="color: #f77c2d;">Pengumuman Terbaru
+          <h4 style="color: #f77c2d;">Pengumuman
             <a href="pengumuman-arsip.html">
               <button type="button" class="btn btn-arsip-pengumuman">Arsip Pengumuman</button>
             </a>
@@ -461,7 +467,7 @@
     </h5>
     <div class="navbar-line w-100 d-block"></div>
     <br>
-    <div class="container-float">
+    <div class="container">
       <div class="row">
         <div class="col-md-6">
           <h6 style="text-align: center; font-family: 'Comic Neue', cursive;">
@@ -534,17 +540,8 @@
           <h6 style="text-align: center; font-family: 'Comic Neue', cursive; margin-top: 20px">
             Pelayanan Publik
           </h6>
-          <div class="layanan"
-            style="background-image:url(dist/img/PANELPUBLIK.jpg);	background-position: center center, center center;	background-size: cover, cover;	background-repeat: repeat, repeat; transform-box: 50%;">
-            Punya Keluhan ataupun Kritik Terhadap Layanan
-            KPU KOTA SUNGAI PENUH<br><br>Silahkan Sampaikan Pertanyaan, Saran, Kritik atau Pengaduan Anda Melalui
-            Tombol
-            dibawah ini.
-            <br>
-            <a href="pelayanan-publik.html">
-              <button type="button" class="btn btn-layanan">Sampaikan Pertanyaan / Keluhan.</button>
-            </a>
-          </div>
+          <a href="#"><img src="dist/img/kritik-dan-saran.jpg" class="img-fluid mx-auto d-block"
+              style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 10px;"></a>
         </div>
       </div>
     </div>
@@ -679,7 +676,8 @@
 
           <!-- Content -->
           <img src="dist/img/brand-putih.png" style="width: 70%; padding: 10px;" class="img-fluid" alt="Logo">
-          <p>Komisi Pemilihan Umum (KPU) adalah lembaga Penyelenggara Pemilu yang bersifat nasional, tetap, dan
+          <p>Komisi Pemilihan Umum (KPU) adalah lembaga Penyelenggara Pemilu yang bersifat
+            nasional, tetap, dan
             mandiri
             yang bertugas melaksanakan Pemilu. KPU menjalankan tugasnya secara berkesinambungan dan dalam
             menyelenggarakan Pemilu.</p>
