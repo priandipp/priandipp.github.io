@@ -657,6 +657,7 @@ html {
 .agenda {
   font-family: 'Comic Neue', cursive;
   padding-top: 10px;
+  /* width: 100%; */
 }
 
 .tanggal {
@@ -688,7 +689,6 @@ html {
   margin-left: 60px;
   margin-top: -70px;
   max-width: 80%;
-  max-height: 50px;
   background-color: #f77c2d;
   color: #000000;
   padding: 5px;
