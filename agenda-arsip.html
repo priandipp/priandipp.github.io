@@ -5,150 +5,259 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="site_name" content="Situs Resmi Komisi Pemilihan Umum Kota Sungai Penuh" />
+    <meta property="og:site_name" content="Situs Resmi Komisi Pemilihan Umum Kota Sungai Penuh" />
+    <meta name="url" content="https://kota-sungaipenuh.kpu.go.id" />
+    <meta property="og:url" content="https://kota-sungaipenuh.kpu.go.id" />
+    <meta name="locale" content="id_ID" />
+    <meta property="og:locale" content="id_ID" />
+
+    <title>Situs Resmi Komisi Pemilihan Umum Kota Sungai Penuh</title>
+    <meta name="title" content="Komisi Pemilihan Umum Kota Sungai Penuh" />
+    <meta property="og:title" content="Komisi Pemilihan Umum Kota Sungai Penuh" />
+    <meta name="twitter:title" content="Komisi Pemilihan Umum Kota Sungai Penuh" />
+    <meta name="description" content="Situs Resmi Komisi Pemilihan Umum Kota Sungai Penuh" />
+    <meta property="og:description" content="Situs Resmi Komisi Pemilihan Umum Kota Sungai Penuh" />
+    <meta name="twitter:description" content="Situs Resmi Komisi Pemilihan Umum Kota Sungai Penuh" />
+    <link rel="image_src" href="dist/img/logo-share.jpg" />
+    <meta name="image" content="dist/img/logo-share.jpg" />
+    <meta property="og:image" content="dist/img/logo-share.jpg" />
+    <meta name="twitter:image" content="dist/img/logo-share.jpg" />
+    <meta name="keywords"
+        content="kpu sungai penuh, pilwako sungai penuh, jambi, pilkada jambi, jambi memilih, pemilu jambi, politik jambi, pilkada , sungai penuh">
+    <meta name="author" content="KPU Kota Sungai Penuh" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="Stylesheet" href="dist/css/costum.css">
+    <link href="dist/css/all.css" rel="stylesheet">
+    <script defer src="dist/js/all.js"></script>
     <link rel="shortcut icon" href="dist/img/favicon.ico">
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
-
-    <title>Situs Resmi Komisi Pemilihan Umum Kota Sungai Penuh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Running Text -->
-    <nav class="navbar navbar-top">
-        <div class="layout-marquee">
-            <span class="navbar-marquee">
-                <marquee>Informasi dengan Running Text</marquee>
-            </span>
+    <nav class="navbar navbar-expand-lg" style="opacity: 0.9; background: #2b2b2b;">
+        <div class="date">
+            <!-- Menampilkan Hari, Bulan dan Tahun -->
+            <br>
+            <script type='text/javascript'>
+                var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September',
+                    'Oktober',
+                    'November', 'Desember'
+                ];
+                var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+                var date = new Date();
+                var day = date.getDate();
+                var month = date.getMonth();
+                var thisDay = date.getDay(),
+                    thisDay = myDays[thisDay];
+                var yy = date.getYear();
+                var year = (yy < 1000) ? yy + 1900 : yy;
+                document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+            </script>
         </div>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div class="addthis_inline_follow_toolbox_1jor_bmph" style="margin-top: -10px; margin-left: auto;"></div>
+        <form id="demo-2" style="margin-left: 10px;">
+            <input type="search" placeholder="Search">
+        </form>
     </nav>
-    <!-- akhir running text -->
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">BERANDA<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        PROFIL
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="profil-sejarah.html">Sejarah</a>
-                        <a class="dropdown-item" href="profil-misi.html">Visi & Misi</a>
-                        <a class="dropdown-item" href="profil-struktur.html">Struktur Organisasi</a>
-                        <a class="dropdown-item" href="profil-komisioner.html">Komisioner</a>
-                        <a class="dropdown-item" href="profil-sekretariat.html">Sekretariat</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="berita-arsip.html">BERITA</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pengumuman-arsip.html">PENGUMUMAN</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://jdih.kpu.go.id/">JDIH</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://ppid.kpu.go.id/">PPID</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        GALERI
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="galeri-foto.html">Galeri Foto</a>
-                        <a class="dropdown-item" href="galeri-video.html">Galeri Video</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pelayanan-publik.html">PENGADUAN ONLINE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://pemilu2019.kpu.go.id/">HASIL PEMILU</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="navbar-line w-100 d-block"></div>
-    <!-- akhir navbar -->
+    <!-- Header -->
+    <div class="container" style="padding: 0px">
 
-    <!-- header -->
-    <div class="jumbotron jumbotron-header">
-        <div class="container">
-            <div class="row">
-                <!-- LOGO KPU -->
-                <div class="col-md-8">
-                    <img src="dist/img/brand.png" class="logo">
-                </div>
-                <!-- AKHIR LOGO -->
-                <!-- SEARCH  -->
-                <div class="col-6 col-md-4">
-                    <form class="form-inline pencarian">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Pencarian Berita / Pengumuman"
-                            aria-label="Search">
-                        <button class="btn btn-outline-secondary btn-menu my-2 my-sm-0" type="submit"><img
-                                src="https://kota-sungaipenuh.kpu.go.id/dist/img/search.svg" alt="Search" width="22"
-                                height="22"></button>
-                    </form>
-                </div>
-                <!-- AKHIR SEARCH -->
-            </div>
-        </div>
+        <img class="desktop" src="dist/img/banner-atas-kpu-ri.jpg" alt="" style="width: 100% !important">
 
-        <!-- slideshow panel -->
-        <div class="row justify-content-center">
-            <div class="col-lg-10 info-panel">
-                <!-- corousel -->
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="dist/img/banner-atas.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-                <!-- akhir corousel -->
-            </div>
-        </div>
-        <!-- akhir slideshow panel -->
+
     </div>
-    <!-- akhir header -->
+
+    <div class="container mobile-container" style="padding: 0px">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">BERANDA<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PROFIL
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="profil-sejarah.html">Sejarah</a>
+                            <a class="dropdown-item" href="profil-misi.html">Visi & Misi</a>
+                            <a class="dropdown-item" href="profil-struktur.html">Struktur Organisasi</a>
+                            <a class="dropdown-item" href="profil-komisioner.html">Komisioner</a>
+                            <a class="dropdown-item" href="profil-sekretariat.html">Sekretariat</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="berita-arsip.html">BERITA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pengumuman-arsip.html">PENGUMUMAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://jdih.kpu.go.id/jambi/sungaipenuh/home">JDIH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://sungaipenuhkotappid.kpu.go.id/">PPID</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            GALERI
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="galeri-foto.html">Galeri Foto</a>
+                            <a class="dropdown-item" href="galeri-video.html">Galeri Video</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            TAHAPAN PEMILU
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Tahapan Pemilu</a>
+                            <a class="dropdown-item" href="#">Tahapan Pemilihan</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://pemilu2019.kpu.go.id/">HASIL PEMILU</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- akhir navbar -->
+
+
+        <nav class="navbar navbar-top">
+            <div class="layout-marquee">
+                <span class="navbar-marquee">
+                    <span style="padding: 10px;" class="typewrite" data-period="2000"
+                        data-type='[ "Cegah Covid 19.", "Selalu Pake Masker.", "Cuci Tangan Pake Sabun.", "Jaga Jarak Aman." ]'>
+                        <span class="wrap"></span>
+                        </class=>
+                    </span>
+            </div>
+        </nav>
+        <!-- akhir running text -->
+        <div class="navbar-line w-100 d-block"></div>
+    </div>
 
     <!-- konten -->
     <br>
     <div class="container">
         <div class="row">
-            <!-- konten kiri -->
-            <div class="col-md-8" bis_skin_checked="1">
+            <div class="col-md-4">
+                <div class="timer">
+                    <h5 style="text-align: center; font-size: 18px; color: black;">Menuju Pilkada Serentak 9 Desember
+                        2020</h5>
+                    <div>
+                        <span class="days" id="day"></span>
+                        <div class="smalltext">HARI</div>
+                    </div>
+                    <div>
+                        <span class="hours" id="hour"></span>
+                        <div class="smalltext">JAM</div>
+                    </div>
+                    <div>
+                        <span class="minutes" id="minute"></span>
+                        <div class="smalltext">MENIT</div>
+                    </div>
+                    <div>
+                        <span class="seconds" id="second"></span>
+                        <div class="smalltext">DETIK</div>
+                    </div>
+                    <p id="time-up"></p>
+                </div>
+
+                <br>
+
+                <!-- cuaca -->
+                <a class="weatherwidget-io" href="https://forecast7.com/en/n2d06101d39/sungai-penuh/"
+                    data-label_1="SUNGAI PENUH" data-label_2="Hari Ini" data-icons="Climacons Animated"
+                    data-theme="weather_one">SUNGAI PENUH Hari Ini</a>
+                <script>
+                    ! function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = 'https://weatherwidget.io/js/widget.min.js';
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, 'script', 'weatherwidget-io-js');
+                </script>
+                <!-- end cuaca -->
+                <br>
+
+                <h4>Berita Terpopuler</h4>
+                <div class="navbar-line w-100 d-block"></div>
+                <br>
+                <h5 class="h4-costum"><a class="a-link" href="berita-detail.html">Judul Berita Lorem, ipsum dolor sit
+                        amet
+                        consectetur adipisicing elit. Voluptates, placeat.</a></h5>
+                <p class="news-text"><small class="text-muted">Telah dibaca XXXXX Kali.</small></p>
+                <div class="berita-line w-100 d-block"></div>
+                <br>
+                <h5 class="h4-costum"><a class="a-link" href="berita-detail.html">Judul Berita Lorem, ipsum dolor sit
+                        amet
+                        consectetur adipisicing elit. Voluptates, placeat.</a></h5>
+                <p class="news-text"><small class="text-muted">Telah dibaca XXXXX Kali.</small></p>
+                <div class="berita-line w-100 d-block"></div>
+                <br>
+                <img src="dist/img/SIDEBAR BANNER.jpg" class="img-fluid" alt="Sidebar Banner">
+                <br>
+                <br>
+                <img src="dist/img/SIDEBAR BANNER.jpg" class="img-fluid" alt="Sidebar Banner">
+                <br>
+                <br>
+                <img src="dist/img/SIDEBAR BANNER.jpg" class="img-fluid" alt="Sidebar Banner">
+                <br>
+                <br>
+                <h4>Links</h4>
+                <div class="navbar-line w-100 d-block"></div>
+                <br>
+                <a class="a-link" style="padding: 10px;" href="https://www.kpu.go.id/" target="_blank"><img
+                        src="dist/img/LOGO-KPU-RI.png" alt="KPU RI" class="rounded"
+                        style="width: 150px; height: 150px; background: #ffffff;"></a>
+                <a class="a-link" style="padding: 10px;" href="https://jambi.kpu.go.id/" target="_blank"><img
+                        src="dist/img/LOGO-KPU-PROV.png" alt="KPU PROVINSI JAMBI" class="rounded"
+                        style="width: 150px; height: 150px; background: #ffffff;"></a>
+                <div class="berita-line w-100 d-block"></div>
+                <a class="a-link" style="padding: 10px;" href="https://sungaipenuhkota.go.id/" target="_blank"><img
+                        src="dist/img/LOGO-SPN.png" alt="WEBSITE KOTA SUNGAI PENUH" class="rounded"
+                        style="width: 150px; height: 150px; background: #ffffff;"></a>
+                <a class="a-link" style="padding: 10px;" href="https://mkri.id/" target="_blank"><img
+                        src="dist/img/LOGO-MK.png" alt="WEBSITE MAHKAMAH KONSTITUSI" class="rounded"
+                        style="width: 150px; height: 150px; background: #ffffff;"></a>
+                <br>
+
+            </div>
+
+            <div class="col-md-8">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="a-link" href="index.html">Beranda</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Agenda</li>
+                    </ol>
+                </nav>
                 <h4>Jadwal Kegiatan</h4>
                 <div class="navbar-line w-100 d-block" bis_skin_checked="1"></div>
                 <br>
@@ -215,69 +324,278 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
-            <!-- akhir konten kiri -->
-            <div class="col-md-4">
-                <div class="powr-countdown-timer" id="c9686d5f_1597842692"></div>
-                <script src="https://www.powr.io/powr.js?platform=bootstrap"></script>
-
                 <br>
+                <img style="padding: 10px;" src="dist/img/INFOBANNER.jpg" class="img-fluid" alt="Sidebar Banner">
+                <img style="padding: 10px;" src="dist/img/INFOBANNER.jpg" class="img-fluid" alt="Sidebar Banner">
+                <br>
+                <!-- berita terbaru -->
+                <h4>Berita Terbaru
+                    <a href="berita-arsip.html">
+                        <button type="button" class="btn btn-arsip">Arsip Berita</button>
+                    </a>
+                </h4>
+                <div class="navbar-line w-100 d-block"></div>
+                <div class="card-body">
 
-                <div id="ml_1bb08947">
-                    <div style="padding:0;margin:0;" id="ml_1bb08947_i" v='1.1'
-                        a='{"t":"a","lang":"id","ids":["6129"],"a_bg":"#FFFFFF","a_br_c":"rgba(247,124,45,1)","a_n_b":"rgba(247,124,45,1)","a_icon":"#FFFFFF00","a_con":"rgba(247,124,45,1)","a_inter":"#FFFFFF00","a_n_c":"#FFFFFF","a_icon_color":"#000000","a_con_c":"#FFFFFF","a_int_h_color":"#000000","a_int_temp_color":"#000000","p_w":350,"p_cr":4}'>
+                    <div class="news mb-3">
+                        <div class="news-title">
+                            <h4 class="h4-costum"><a class="a-link" href="berita-detail.html">Judul Berita</a></h4>
+                            <p class="news-text"><small class="text-muted">Diposting pada tanggal 29 Feb 2020 Jam
+                                    13:00</small></p>
+                        </div>
+                        <div class="news-body row">
+                            <div class="col-md-3">
+                                <img class="img-thumbnail" width="100%" src="dist/img/tes.jpg" alt="">
+                            </div>
+                            <div class="news-content col-md-9">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi. Nobis dolor
+                                voluptatem ex
+                                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus
+                                amet sint
+                                ullam.
+                                Repellat, possimus...
+
+                                <br>
+                                <div class="content">
+                                    <a href="berita-detail.html">
+                                        <button type="button" class="btn btn-read btn-sm pull-right"
+                                            id="right-panel-link">Baca
+                                            Selengkapnya</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div id="ml_1bb08947_c" style="padding:0;margin:0;padding:7px 5px;"><img
-                            src="https://cuacalab.id/assets/img/logo_z_b.svg"
-                            style="width:15px;opacity:0.7;margin-right:5px;position:relative;top:1px;display:inline-block;"><a
-                            href="https://cuacalab.id/cuaca_sungai_penuh/hari_ini/"
-                            style="color:grey;font-size:12px;text-decoration:none;" target="_blank"
-                            id="ml_1bb08947_u">Cuaca Hari
-                            ini</a>
+                    <div class="berita-line w-100 d-block"></div>
+                    <br>
+
+                    <div class="news mb-3">
+                        <div class="news-title">
+                            <h4 class="h4-costum"><a class="a-link" href="berita-detail.html">Judul Berita</a></h4>
+                            <p class="news-text"><small class="text-muted">Diposting pada tanggal 29 Feb 2020 Jam
+                                    13:00</small></p>
+                        </div>
+                        <div class="news-body row">
+                            <div class="col-md-3">
+                                <img class="img-thumbnail" width="100%" src="dist/img/tes.jpg" alt="">
+                            </div>
+                            <div class="news-content col-md-9">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi. Nobis dolor
+                                voluptatem ex
+                                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus
+                                amet sint
+                                ullam.
+                                Repellat, possimus...
+
+                                <br>
+                                <div class="content">
+                                    <a href="berita-detail.html">
+                                        <button type="button" class="btn btn-read btn-sm pull-right"
+                                            id="right-panel-link">Baca
+                                            Selengkapnya</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="berita-line w-100 d-block"></div>
+                    <br>
+                    <div class="news mb-3">
+                        <div class="news-title">
+                            <h4 class="h4-costum"><a class="a-link" href="berita-detail.html">Judul Berita</a></h4>
+                            <p class="news-text"><small class="text-muted">Diposting pada tanggal 29 Feb 2020 Jam
+                                    13:00</small></p>
+                        </div>
+                        <div class="news-body row">
+                            <div class="col-md-3">
+                                <img class="img-thumbnail" width="100%" src="dist/img/tes.jpg" alt="">
+                            </div>
+                            <div class="news-content col-md-9">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi. Nobis dolor
+                                voluptatem ex
+                                voluptates quod aliquid autem pariatur eveniet nulla error quaerat, laboriosam possimus
+                                amet sint
+                                ullam.
+                                Repellat, possimus...
+
+                                <br>
+                                <div class="content">
+                                    <a href="berita-detail.html">
+                                        <button type="button" class="btn btn-read btn-sm pull-right"
+                                            id="right-panel-link">Baca
+                                            Selengkapnya</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="berita-line w-100 d-block"></div>
                 </div>
-                <script async src="https://app.cuacalab.id/js/?id=ml_1bb08947"></script>
-                <br>
-
-                <h4>Berita Terpopuler</h4>
-                <div class="navbar-line w-100 d-block"></div>
-                <br>
-                <h5 class="h4-costum"><a class="a-link" href="berita-detail.html">Judul Berita Lorem, ipsum dolor sit
-                        amet
-                        consectetur adipisicing elit. Voluptates, placeat.</a></h5>
-                <p class="news-text"><small class="text-muted">Telah dibaca XXXXX Kali.</small></p>
-                <div class="berita-line w-100 d-block"></div>
-                <br>
-                <h5 class="h4-costum"><a class="a-link" href="berita-detail.html">Judul Berita Lorem, ipsum dolor sit
-                        amet
-                        consectetur adipisicing elit. Voluptates, placeat.</a></h5>
-                <p class="news-text"><small class="text-muted">Telah dibaca XXXXX Kali.</small></p>
-                <div class="berita-line w-100 d-block"></div>
-                <br>
-                <img src="dist/img/SIDEBAR BANNER.jpg" class="img-fluid" alt="Sidebar Banner">
-                <br>
-                <br>
-                <img src="dist/img/SIDEBAR BANNER.jpg" class="img-fluid" alt="Sidebar Banner">
-                <br>
-                <br>
-                <img src="dist/img/SIDEBAR BANNER.jpg" class="img-fluid" alt="Sidebar Banner">
-                <br>
-                <br>
-                <h4>Links</h4>
-                <div class="navbar-line w-100 d-block"></div>
-                <h5 style="padding: 10px;" class="h4-costum"><a class="a-link" href="https://www.kpu.go.id/"><img
-                            src="dist/img/chain.svg" alt="Search" width="22" height="22"> KPU Republik Indonesia</a>
-                </h5>
-                <div class="berita-line w-100 d-block"></div>
-                <h5 style="padding: 10px;" class="h4-costum"><a class="a-link" href="https://jambi.kpu.go.id/"><img
-                            src="dist/img/chain.svg" alt="Search" width="22" height="22"> KPU Provinsi Jambi</a></h5>
-                <br>
-
+                <!-- end berita terbaru -->
             </div>
         </div>
     </div>
     <!-- akhir konten -->
 
+    <!-- jumbotron explore -->
+    <div class="jumbotron jumbotron-costum">
+        <h5 style="text-align: center; font-family: 'Comic Neue', cursive;">
+            EXPLORE KPU KOTA SUNGAI PENUH
+        </h5>
+        <div class="navbar-line w-100 d-block"></div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h6 style="text-align: center; font-family: 'Comic Neue', cursive;">
+                        Jingle Pilkada KPU Kota Sungai Penuh
+                    </h6>
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/_PEkk8eGS5g" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h6 style="text-align: center; font-family: 'Comic Neue', cursive;">
+                        Peta Jumlah Pemilih Berdasarkan Kecamatan
+                    </h6>
+
+                </div>
+                <div class="col-md-6">
+                    <h6 style="text-align: center; font-family: 'Comic Neue', cursive; margin-top: 20px;">
+                        Agenda Kegiatan
+                    </h6>
+                    <div class="agenda">
+                        <div class="tanggal">
+                            11
+                        </div>
+                        <div class="bulan">
+                            JAN
+                        </div>
+                        <div class="deskripsi">
+                            Judul Kegiatan Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, doloribus.
+                        </div>
+                        <div class="lokasi">
+                            <img src="dist/img/loc-hitam.png" alt="Search" width="22" height="22" style="color: white;">
+                            <small class="text-muted">Kantor KPU Kota Sungai Penuh</small>
+                        </div>
+                    </div>
+                    <div class="agenda">
+                        <div class="tanggal">
+                            11
+                        </div>
+                        <div class="bulan">
+                            JAN
+                        </div>
+                        <div class="deskripsi">
+                            Judul Kegiatan Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, doloribus.
+                        </div>
+                        <div class="lokasi">
+                            <img src="dist/img/loc-hitam.png" alt="Search" width="22" height="22" style="color: white;">
+                            <small class="text-muted">Kantor KPU Kota Sungai Penuh</small>
+                        </div>
+                    </div>
+                    <div class="agenda">
+                        <div class="tanggal">
+                            11
+                        </div>
+                        <div class="bulan">
+                            JAN
+                        </div>
+                        <div class="deskripsi">
+                            Judul Kegiatan Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, doloribus.
+                        </div>
+                        <div class="lokasi">
+                            <img src="dist/img/loc-hitam.png" alt="Search" width="22" height="22" style="color: white;">
+                            <small class="text-muted">Kantor KPU Kota Sungai Penuh</small>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="agenda-arsip.html">
+                        <button type="button" class="btn btn-agenda">Lihat Semua Agenda</button>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <h6 style="text-align: center; font-family: 'Comic Neue', cursive; margin-top: 20px">
+                        Pelayanan Publik
+                    </h6>
+                    <a href="#"><img src="dist/img/kritik-dan-saran.jpg" class="img-fluid mx-auto d-block"
+                            style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 10px;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir jumbotron explore -->
+
+    <!-- Panel bawah -->
+    <div class="py-5 text-white"
+        style="background-image:url(dist/img/PANELBG.jpg);	background-position: center center, center center;	background-size: cover, cover;	background-repeat: repeat, repeat;">
+        <div class="container">
+            <!-- Columns are always 50% wide, on mobile and desktop -->
+            <div class="row">
+                <div class="col-md-6" style="padding: 10px;">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#facebook"
+                                style="color: white;">Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#instagram" style="color: white;">Instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#twitter" style="color: white;">Twitter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#youtube" style="color: white;">Youtube</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content" style="color: black;">
+                        <div id="facebook" class="container tab-pane active"><br>
+                            <iframe
+                                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkpusungaipenuhkota%2F&tabs=timeline&width=500&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+                                width="100%" height="300" style="border:none;overflow:hidden" scrolling="no"
+                                frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                        <div id="instagram" class="container tab-pane fade"><br>
+                            <div class="powr-social-feed" id="3ab9ba6d_1598419930"></div>
+                            <script src="https://www.powr.io/powr.js?platform=bootstrap"></script>
+                        </div>
+                        <div id="twitter" class="container tab-pane fade"><br>
+                            <a class="twitter-timeline" data-lang="id" data-width="500" data-height="300"
+                                data-theme="light" href="https://twitter.com/kpusungaipenuh?ref_src=twsrc%5Etfw">Tweets
+                                by kpusungaipenuh</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div id="youtube" class="container tab-pane fade"><br>
+                            <div class="powr-youtube-gallery" id="715eaf2b_1599497163"></div>
+                            <script src="https://www.powr.io/powr.js?platform=embed"></script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="padding: 10px;">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#maps" style="color: white;">Peta
+                                Kantor</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content" style="color: black;">
+                        <div id="maps" class="container tab-pane active"><br>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26822.573986918767!2d101.3985093648977!3d-2.0761558641995914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2da1bb40b0ca19%3A0x8cd39596a23c5cb0!2sKomisi%20Pemilihan%20Umum%20Kota%20Sungai%20Penuh!5e0!3m2!1sen!2sid!4v1598004823686!5m2!1sen!2sid"
+                                width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end panel bawah -->
 
     <!-- footer -->
     <!-- Footer -->
@@ -297,23 +615,22 @@
                     <h5 class="text-uppercase">Kontak</h5>
                     <div class="navbar-line w-100 d-block"></div>
                     <br>
-                    <ul class="list-unstyled">
-                        <li style="padding-bottom: 5px;">
-                            <img src="dist/img/loc.png" style="position: absolute;" width="22" height="22">
-                            <p style="margin-left: 30px;">JL. Depati Parbo No.31 Kelurahan Karya Bakti Kota Sungai Penuh
-                                Provinsi
-                                Jambi, 37111. Indonesia</p>
-                        </li>
-                        <li style="padding-bottom: 5px;">
-                            <img src="dist/img/phone.png" style="position: absolute;" width="22" height="22">
-                            <p style="margin-left: 30px;">0748-xxxxx</p>
-                        </li>
-                        <li style="padding-bottom: 5px;">
-                            <img src="dist/img/mail.png" style="position: absolute;" width="22" height="22">
-                            <p style="margin-left: 30px;">kota_sungaipenuh@kpu.go.id</p>
-                        </li>
-                    </ul>
+                    <table class="table table-borderless" style="color: white; margin-top: -25px;">
+                        <tbody>
+                            <tr>
+                                <th scope="row"><i class="fas fa-map-marker-alt"></i></th>
+                                <td>JL. Depati Parbo No.31 Kelurahan
+                                    Karya
+                                    Bakti Kota Sungai Penuh Provinsi
+                                    Jambi, 37111. Indonesia</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fas fa-envelope"></i></th>
+                                <td>kota_sungaipenuh@kpu.go.id</td>
+                            </tr>
 
+                        </tbody>
+                    </table>
                 </div>
                 <!-- Grid column -->
 
@@ -344,11 +661,11 @@
 
                 <!-- Grid column -->
                 <div class="col-md-4 mt-md-0 mt-4">
-
                     <!-- Content -->
                     <img src="dist/img/brand-putih.png" style="width: 70%; padding: 10px;" class="img-fluid" alt="Logo">
-                    <p>Komisi Pemilihan Umum (KPU) adalah lembaga Penyelenggara Pemilu yang bersifat nasional, tetap,
-                        dan mandiri
+                    <p>Komisi Pemilihan Umum (KPU) adalah lembaga Penyelenggara Pemilu yang bersifat
+                        nasional, tetap, dan
+                        mandiri
                         yang bertugas melaksanakan Pemilu. KPU menjalankan tugasnya secara berkesinambungan dan dalam
                         menyelenggarakan Pemilu.</p>
 
@@ -390,6 +707,9 @@
 
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e86ec03ee343403"></script>
+
+    <!-- news ticker -->
+    <script src="dist/js/news-ticker.js"></script>
 </body>
 
 </html>
